@@ -25,7 +25,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
     outline: 0;
-outline-offset: 0;
+    outline-offset: 0;
   }
 ul {
     list-style: none;
@@ -39,7 +39,7 @@ ul {
 /*--HEADER--*/
 .page-header {
 }
-.logo, .logo-web {
+.logo, .logo-web,  .footer-web {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -58,8 +58,7 @@ ul {
 
  /*--NAVIGATION--*/
 .navigation-list {
-font-family: 'Raleway', sans-serif;
-font-weight: 600;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -124,7 +123,7 @@ letter-spacing: 0.02em;
 .title {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.1;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: var(--primary-title-color);
 }
@@ -142,8 +141,6 @@ background-color: var(--primary-background-color);
 }
 
 /* --PORTFOLIO BUTTONS-- */
-.buttons {
-}
 .buttons-list {
 
 }
@@ -175,7 +172,12 @@ color: #F4F4FD;
 .footer {
     background: #2E2F42;
     }
+    .footer-web {
+        line-height: 1.16;
+        color: var(--accent-color)
+    }
     .footer-logo {
+    line-height: 1.16;
     color: #F4F4FD;
     }
     .footer-text {
